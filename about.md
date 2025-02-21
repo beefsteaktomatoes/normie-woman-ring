@@ -28,22 +28,22 @@ Each member site gets an embed page generated for them. After your pull request 
     border: none;
   }
 </style>
-<iframe src="{{'/sites/yarnandpeeps.html' | absolute_url}}">
+<iframe src="{{'https://beefsteaktomatoes.github.io/normie-woman-ring/sites/yarnandpeeps.html' | absolute_url}}">
 </iframe>
-<script src="{{'/assets/parent.js' | absolute_url }}"></script>
+<script src="{{'https://beefsteaktomatoes.github.io/normie-woman-ring/assets/parent.js' | absolute_url }}"></script>
 ```
 
 replacing `yarnandpeeps` with the name of the file you added. The `parent.js` script is unnecessary if you plan to size the iframe appropriately. It'll look like this:
+
 
 <style type="text/css">
   iframe {
     border: none;
   }
 </style>
-<iframe src="{{'/sites/yarnandpeeps.html | absolute_url}}">
+<iframe src="{{'https://beefsteaktomatoes.github.io/normie-woman-ring/sites/yarnandpeeps.html' | absolute_url}}">
 </iframe>
-<script src="{{'/assets/parent.js' | absolute_url}}"></script>
-
+<script src="{{'https://beefsteaktomatoes.github.io/normie-woman-ring/assets/parent.js' | absolute_url }}"></script>
 ## Creating a PR
 
 Visit the [create new file form]({{site.new_site_url}}) on this webring's repository.
@@ -71,9 +71,9 @@ If lavender isn't your thing, use your own css by appending the `stylesheet` que
     border: none;
   }
 </style>
-<iframe src="{{'/sites/yarnandpeeps.html' | absolute_url}}?stylesheet=<link to your custom stylesheet>">
+<iframe src="{{'https://beefsteaktomatoes.github.io/normie-woman-ring/sites/yarnandpeeps.html' | absolute_url}}?stylesheet=<link to your custom stylesheet>">
 </iframe>
-<script src="{{'/assets/parent.js' | absolute_url}}"></script>
+<script src="{{'https://beefsteaktomatoes.github.io/normie-woman-ring/assets/parent.js' | absolute_url}}"></script>
 ```
 
 # Manual Implementations
