@@ -17,6 +17,7 @@ title: Normie Woman Ring
 email: zucch1n1@posteo.net
 description: >- # this means to ignore newlines until "baseurl:"
   A webring for all normie women
+baseurl: /normie-woman-ring # For GitHub Pages's default url, this is the name of your repo
 url: https://beefsteaktomatoes.github.io
 
 # Build settings
