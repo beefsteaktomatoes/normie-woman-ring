@@ -28,19 +28,19 @@ Each member site gets an embed page generated for them. After your pull request 
     border: none;
   }
 </style>
-<iframe src="{{'/sites/dakotamarshall.html' | absolute_url}}">
+<iframe src="{{'/sites/yarnandpeeps.html' | absolute_url}}">
 </iframe>
 <script src="{{'/assets/parent.js' | absolute_url }}"></script>
 ```
 
-replacing `dakotamarshall` with the name of the file you added. The `parent.js` script is unnecessary if you plan to size the iframe appropriately. It'll look like this:
+replacing `yarnandpeeps` with the name of the file you added. The `parent.js` script is unnecessary if you plan to size the iframe appropriately. It'll look like this:
 
 <style type="text/css">
   iframe {
     border: none;
   }
 </style>
-<iframe src="{{'/sites/dakotamarshall.html' | absolute_url}}">
+<iframe src="{{'/sites/yarnandpeeps.html | absolute_url}}">
 </iframe>
 <script src="{{'/assets/parent.js' | absolute_url}}"></script>
 
@@ -52,10 +52,10 @@ Name your new file uniquely, and give it an extension of `.html`. Add some [Jeky
 
 ```
 ---
-uri: https://dakotamarshall.net
-title: Dakota's Site
-desc: Dakota's personal site
-date: 2024-07-27
+uri: https://yarn-and-peeps.neocities.org/
+title: Yarn and Peeps
+desc: Knitting, chickens, motherhood, cloth diapers, zero waste
+date: 2025-02-21
 ---
 ```
 
@@ -71,7 +71,7 @@ If lavender isn't your thing, use your own css by appending the `stylesheet` que
     border: none;
   }
 </style>
-<iframe src="{{'/sites/dakotamarshall.html' | absolute_url}}?stylesheet=<link to your custom stylesheet>">
+<iframe src="{{'/sites/yarnandpeeps.html' | absolute_url}}?stylesheet=<link to your custom stylesheet>">
 </iframe>
 <script src="{{'/assets/parent.js' | absolute_url}}"></script>
 ```
