@@ -1,4 +1,4 @@
-# MageRing
+# Normie Woman Ring
 
 This is a webring, built using Jekyll, hosted by GitHub Pages, that adds sites via pull requests.
 
